@@ -1,0 +1,424 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Timeline</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <script>
+        function switchMenu() {
+            var menu = document.getElementsByClassName("menu")[0];
+            var menublock = document.getElementsByClassName("menu-block")[0];
+            if (menu.style.display == "") {
+                menu.setAttribute("style", "display: inline-block; height: 150%;");
+                menublock.setAttribute("style", "height: 150%;");
+
+            } else {
+                menu.removeAttribute("style");
+                menublock.removeAttribute("style");
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="menu-block">
+        <button class="open-menu visible-mob" onclick="switchMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+        <a href="#" class="logo">
+            <img src="img/AtomLogo32-32w.png" id="logo-img" alt="logo">
+        </a>
+
+        <div class="menu">
+            <a href="index.php"><i class="fas fa-sync-alt"></i></a>
+            <a href="stages-chat.html"><i class="fas fa-users"></i></a>
+            <a href="timeline-user.html"><i class="far fa-clock"></i></a>
+            <a href="pages-admin.html"><i class="fas fa-file-alt"></i></a>
+            <a href="add-edit-process-admin.html"><i class="fas fa-briefcase"></i></a>
+            <a href="download-admin.html"><i class="fas fa-download"></i></a>
+            <a href="service-all.html"><i class="fas fa-calendar-alt"></i></a>
+            <a href="service-admin.html"><i class="fas fa-link"></i></a>
+            <a href="archive-user.html"><i class="fas fa-envelope"></i></a>
+            <a href="stages-chat-user.html"><i class="fas fa-question-circle"></i></a>
+            <a href="#"><i class="fas fa-power-off"></i></a>
+        </div>
+    </div>
+
+    <div class="empty-block visible-mob"></div>
+    <noscript class="red-back">
+        <h1>JavaScript is disabled in your browser.</h1>
+        <div class="text">For use full features of the site please enable Javascript "How do I enable it?" or upgrade to a JavaScript-capable browser. After enabling the JavaScript, reload this page (F5).</div>
+    </noscript>
+
+    <div class="top-block">
+        <div class="types-message-block">
+            <a href="" class="type-message gray-back">NORMAL message. <br>Private or Public. #1</a>
+            <a href="" class="type-message gray-back">NORMAL message. <br>Private or Public. #2</a>
+            <a href="" class="type-message green-back">APPROVAL message. <br>Private or Public. #1</a>
+            <a href="" class="type-message green-back">APPROVAL message. <br>Private or Public. #2</a>
+            <a href="" class="type-message red-back">URGENT message. <br>Private or Public. #1</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="filter-block">
+            <div class="left-block">
+                <h1>Timeline </h1>
+            </div>
+            <div class="right-block">
+                <form action="">
+                    <select name="type">
+                        <option>All Type</option>
+                        <option>Type 1</option>
+                        <option>Type 2</option>
+                        <option>Type 3</option>
+                    </select>
+                    <input type="submit" value="FILTER" class="btn green-back">
+                </form>
+            </div>
+        </div>
+        <div class="table-block">
+            <table border="1" class="table">
+                <tr>
+                    <th rowspan="2">Product name</th>
+                    <th rowspan="2">Description</th>
+                    <th rowspan="2">Subject</th>
+                    <th colspan="4" class="light-green-back">Pre-submission</th>
+                    <th colspan="4" class="light-blue-back">Submission</th>
+                    <th colspan="7">Department</th>
+                    <th colspan="4" class="light-green-back">Laboratory</th>
+                    <th colspan="4" class="light-blue-back">Pharmacopoeia Committee</th>
+                    <th colspan="4">Pharmacological Committee</th>
+                    <th colspan="4" class="light-green-back">Expert council</th>
+                </tr>
+                <tr>
+                    <th class="light-green-back">Soft copy received</th>
+                    <th class="light-green-back">Response of MoH</th>
+                    <th class="light-green-back">Hard copy sent</th>
+                    <th class="light-green-back">Request to import</th>
+                    <th class="light-blue-back">Documents received</th>
+                    <th class="light-blue-back">Documents provided to MoH</th>
+                    <th class="light-blue-back">Request of MoH</th>
+                    <th class="light-blue-back">Response of AMC</th>
+                    <th>Request of department</th>
+                    <th>Response of AMC</th>
+                    <th>Agreement prepared</th>
+                    <th>Agreement provided</th>
+                    <th>SWIFT provided</th>
+                    <th>Payment received</th>
+                    <th>Document received</th>
+                    <th class="light-green-back">Request of QCD</th>
+                    <th class="light-green-back">Response of AMC</th>
+                    <th class="light-green-back">Provided to QCD</th>
+                    <th class="light-green-back">Received report</th>
+                    <th class="light-blue-back">Request of PCC</th>
+                    <th class="light-blue-back">Response of AMC</th>
+                    <th class="light-blue-back">Provided to PCC</th>
+                    <th class="light-blue-back">Received Artwork, ND</th>
+                    <th>Request of PLC</th>
+                    <th>Response of AMC</th>
+                    <th>Provided to PLC</th>
+                    <th>Received Insert</th>
+                    <th class="light-green-back">Request of EC</th>
+                    <th class="light-green-back">Response of AMC</th>
+                    <th class="light-green-back">Draft RC provided</th>
+                    <th class="light-green-back">Received RC</th>
+                </tr>
+                <tr>
+                    <td>Name of process</td>
+                    <td>Descrip. of process</td>
+                    <td>Type of process</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                </tr>
+                <tr>
+                    <td>Name of process</td>
+                    <td>Descrip. of process</td>
+                    <td>Type of process</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="red-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                </tr>
+                <tr>
+                    <td>Name of process</td>
+                    <td>Descrip. of process</td>
+                    <td>Type of process</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                </tr>
+                <tr>
+                    <td>Name of process</td>
+                    <td>Descrip. of process</td>
+                    <td>Type of process</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                </tr>
+                <tr>
+                    <td>Name of process</td>
+                    <td>Descrip. of process</td>
+                    <td>Type of process</td>
+                    <td class="red-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                </tr>
+                <tr>
+                    <td>Name of process</td>
+                    <td>Descrip. of process</td>
+                    <td>Type of process</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td class="light-blue-back">DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td>DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                    <td class="light-green-back">DD-MM-YYYY</td>
+                </tr>
+            </table>
+        </div>
+        <div class="table-bottom-block">
+            <p>Scroll to right to see full table >></p>
+        </div>
+        <div class="info-block">
+            <div class="definition">
+                <p>
+                    <span>MoH</span> - Ministry of Health;
+                    <br>
+                    <span>AMC</span> - Applicant / Manufacturer company;
+                    <br>
+                    <span>QCD</span> - Quality Control Department;
+                    <br>
+                    <span>PCC</span> - Pharmacopoeia Committee;
+                    <br>
+                    <span>PLC</span> - Pharmacological Committee;
+                    <br>
+                </p>
+            </div>
+            <div class="definition">
+                <p>
+                    <span>WS/RS</span> - Working standard / Reference standard;
+                    <br>
+                    <span>COA/MOA</span> - Certificate of Analysis / Methods of analysis;
+                    <br>
+                    <span>ND</span> - Normative document (combined CoA/MoA/Artwork);
+                    <br>
+                    <span>Artwork</span> - Carton, label, blister, strip etc.;
+                    <br>
+                    <span>Insert</span> - Package leaflet;
+                    <br>
+                    <span>PSUR</span> - Periodic safety update reports;
+                    <br>
+                    <span>RMP</span> - Risk Management Plan;
+                    <br>
+                    <span>RC</span> - Certificate of Registration in other countries;
+                    <br>
+                </p>
+            </div>
+            <div class="cell-state">
+                <div class="square-area">
+                    <div class="square white-back">
+                    </div>
+                    <div class="text">Normal</div>
+                </div>
+                <div class="square-area">
+                    <div class="square orange-back">
+                    </div>
+                    <div class="text">Request</div>
+                </div>
+                <div class="square-area">
+                    <div class="square red-back">
+                    </div>
+                    <div class="text">Urgent</div>
+                </div>
+                <div class="square-area">
+                    <div class="square green-back">
+                    </div>
+                    <div class="text">Approval</div>
+                </div>
+
+                <div class="square-text">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="text">
+            Copyright &#169; 2014-2018. ATOM. All rights reserved.
+        </div>
+    </div>
+
+</body>
+
+</html>
