@@ -1,0 +1,32 @@
+/* About Us Block */
+
+.main{
+    display: inline-block;
+    width: 100%;
+}
+
+.main .main-wrapper,
+.main .wrap{
+    display: inline-block;
+    margin: 60px 40px;
+    font-family: "Verdena";
+    font-size: 1.2em;
+}
+
+.main .main-wrapper{
+    font-style: italic;
+}
+
+.main .main-wrapper span{
+    color: gray;
+}
+
+/* END About Us Block */
+
+/* Contacts Block */
+
+.main .wrap{
+    font-style: normal;
+}
+
+/* END Contacts Block */

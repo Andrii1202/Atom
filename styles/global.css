@@ -1,0 +1,1989 @@
+/*
+Шрифты: Verdana, Geneva, Sans-serif;
+Размер шрифтов: 1.5 em
+Цвета: #3399FF, #333, #666666, Красный
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 9pt;
+    font-family: Verdana, Geneva, Sans-serif;
+}
+
+.gray-color {
+    color: gray !important;
+}
+
+.green-color {
+    color: green !important;
+}
+
+.orange-color {
+    color: orange !important;
+}
+
+.red-color {
+    color: red !important;
+}
+
+.blue-color {
+    color: #3399FF !important;
+}
+
+.gray-back {
+    background: gray;
+}
+
+.green-back {
+    background: green;
+}
+
+.orange-back {
+    background: orange;
+}
+
+.red-back {
+    background: red;
+}
+
+.blue-back {
+    background: #3399FF;
+}
+
+.light-green-back {
+    background: #eefce7;
+}
+
+.light-blue-back {
+    background: #ebf7ff;
+}
+
+.light-red-back {
+    background: #ffdddd;
+}
+
+.gray-border {
+    border: 1px solid gray;
+}
+
+.green-border {
+    border: 1px solid green;
+}
+
+.orange-border {
+    border: 1px solid orange;
+}
+
+.red-border {
+    border: 1px solid red;
+}
+
+.blue-border {
+    border: 1px solid #3399FF;
+}
+
+.btn-clear {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    padding: 4px 5px;
+    font-size: 1.5em;
+    color: white !important;
+    outline: none !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    text-align: center;
+    height: 37px;
+}
+
+.visible-mob {
+    display: none;
+}
+
+noscript {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    padding-left: 85px;
+    color: #fff;
+}
+
+noscript h1 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+noscript .text {
+    width: 100%;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.control-block {
+    vertical-align: top;
+}
+
+.control-block input,
+.control-block select {
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    outline: none;
+    font-size: 1.3em;
+}
+
+.control-block textarea {
+    padding: 5px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+    outline: none;
+    font-size: 1.3em;
+    border: 1px solid lightgray;
+}
+
+.control-block > * {
+    width: 100%;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+.control-block {
+    width: 100%;
+}
+
+.control-block.full-width {
+    width: 100% !important;
+}
+
+form > input {
+    width: 47%;
+    height: 35px;
+    outline: none;
+}
+
+
+/* Menu Block */
+
+.menu-block {
+    position: fixed;
+    height: 100%;
+    width: 70px;
+    background: #333;
+}
+
+.menu-block .logo {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.menu-block .logo img {
+    height: 3.5em;
+    margin-top: 15px;
+}
+
+.menu-block .menu a {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+.menu-block .menu a:hover {
+    background: #3399FF;
+}
+
+.menu-block .menu a i {
+    font-size: 3em;
+    color: #fff;
+}
+
+
+/* End Menu Block */
+
+
+/* Top Block */
+
+.top-block {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding-left: 90px;
+}
+
+.top-block .types-message-block {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.top-block .types-message-block .type-message {
+    vertical-align: top;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.1%;
+    margin-right: 0.5%;
+    color: white;
+    padding: 5px;
+    font-size: 1.6em;
+    white-space: pre-wrap;
+}
+
+.top-block .types-message-block .type-message:nth-child(5n) {
+    margin-right: 0;
+}
+
+
+/* End Top Block */
+
+
+/* Content Block */
+
+.content {
+    display: block;
+    width: 100%;
+    padding-left: 95px;
+    padding-right: 1.6%;
+    margin-top: 10px;
+    min-height: 84vh;
+}
+
+.content .filter-block {
+    display: inline-block;
+    width: 100%;
+    min-height: 40px;
+    margin: 0;
+}
+
+.content .left-block {
+    float: left;
+    width: 20%;
+}
+
+.content h1 {
+    margin: 0;
+    width: 100%;
+    font-size: 2.5em;
+}
+
+.content .right-block {
+    width: 79%;
+    float: right;
+    text-align: right;
+}
+
+.content .right-block > *,
+.content .right-block form > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content .right-block form {
+    width: 100%;
+}
+
+.content .right-block .btn {
+    margin-left: 1%;
+    width: 15%;
+}
+
+.content .right-block select {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 20%;
+    font-size: 1.3em;
+    margin-left: 15px;
+}
+
+
+/* End Content Block */
+
+
+/* Footer Block */
+
+.footer {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    padding-left: 90px;
+    color: gray;
+    background: #e6e6e6;
+}
+
+.footer .text {
+    font-size: 1.3em;
+}
+
+
+/* End Footer Block */
+
+
+/* Pages Block */
+
+.content .pages-block,
+.content .pages-block form {
+    display: inline-block;
+    width: 100%;
+}
+
+.content .pages-block form > .control-block {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 10px;
+    margin-right: 1%;
+}
+
+.content .pages-block textarea {
+    min-height: 400px;
+    height: 55vh;
+}
+
+
+/* End Pages Block */
+
+
+/* Filter Block */
+
+.content .product-filter-block {
+    display: inline-block;
+    width: 100%;
+}
+
+.content .product-filter-block .control-block {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 10px;
+    margin-right: 1%;
+    width: 20%;
+}
+
+.content .product-filter-block .control-block:nth-child(5n) {
+    margin-right: 0;
+    width: 12%;
+}
+
+.content .product-filter-block .control-block:nth-child(6n) {
+    margin-right: 0;
+    width: 2%;
+}
+
+.content .product-filter-block .control-block i {
+    font-size: 2em;
+    color: red;
+}
+
+
+/* END Filter Block */
+
+
+/* Start Date Block */
+
+.content .date-block > * {
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.content .date-block span {
+    font-size: 1em;
+}
+
+.content .date-block {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    text-align: right;
+}
+
+
+/* END Date Block */
+
+
+/* Table Block */
+
+.content .table-block {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.content .table-block .table {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+/*.content .table-block .table th {
+    color: #fff;
+} */
+
+.content .table-block .table tr:nth-child(2n-1) {
+    background: #ececec;
+}
+
+.content .table-block .table th,
+.content .table-block .table td {
+    min-width: 170px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    font-size: 1.3em;
+}
+
+
+/* End Table Block */
+
+
+/* Error Block */
+
+.content .error-block {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+
+/* End Error Block */
+
+
+/* Table Block */
+
+.content .table-all-width-block {
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 10px;
+}
+
+.content .table-all-width-block .table {
+    margin-bottom: 0;
+    min-width: 800px;
+}
+
+.content .table-all-width-block .caption {
+    text-transform: uppercase;
+}
+
+.content .table-all-width-block .table th {
+    background: #dbdbdb;
+}
+
+.content .table-all-width-block .table th,
+.content .table-all-width-block .table td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid gray;
+    font-size: 1.3em;
+}
+
+.content .table-all-width-block table i {
+    font-size: 1.5em;
+}
+
+.content .table-all-width-block table .fa-pencil-alt {
+    color: #3399FF;
+}
+
+.content .table-all-width-block table .fa-trash-alt {
+    color: red;
+}
+
+.content .table-all-width-block th.special-caption {
+    min-width: 75px;
+}
+
+
+/* End Table Block */
+
+
+/* Add Users Block */
+
+.add-users-block {
+    margin-top: 20px;
+    display: inline-block;
+    width: 50%;
+}
+
+.add-users-block form {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+
+.add-users-block .control-block {
+    display: inline-block;
+    width: 47%;
+    margin-bottom: 10px;
+}
+
+.add-users-block .control-block:nth-child(2n) {
+    margin-left: 5%;
+}
+
+
+/* End Add Users Block */
+
+
+/* Content Block */
+
+.content .process-blocks {
+    width: 100%;
+    text-align: left;
+    font-size: 0;
+}
+
+.content .process-blocks .process {
+    margin-top: 10px;
+    display: inline-block;
+    width: 19%;
+    margin-right: 1.25%;
+    min-height: 50px;
+    position: relative;
+    vertical-align: top;
+}
+
+.content .process-blocks .process:nth-child(5n) {
+    margin-right: 0;
+}
+
+.content .process-blocks .process > *,
+.content .process-blocks .process a > * {
+    text-align: center;
+    width: 100%;
+}
+
+.content .process-blocks .process a {
+    display: block;
+    outline: none;
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
+    padding-bottom: 5px;
+}
+
+.content .process-blocks .process .type-process {
+    display: inline-block;
+}
+
+.content .process-blocks .process .type-process .text {
+    font-size: 1.2em;
+    color: gray;
+    width: 100%;
+    font-weight: bold;
+    padding-right: 2.2em;
+}
+
+.content .process-blocks .process .is-new-block {
+    display: block;
+    width: 2.2em;
+    height: 2.2em;
+    border-radius: 50%;
+    float: left;
+    border: 1px solid gray;
+}
+
+.content .process-blocks .process .is-new-block.active {
+    background: red;
+}
+
+.content .process-blocks .process .name {
+    margin-top: 35px;
+    font-size: 1.65em;
+    font-weight: bold;
+}
+
+.content .process-blocks .process .desc {
+    font-size: 1.3em;
+    color: gray;
+}
+
+.content .process-blocks .process .stage {
+    margin-top: 25px;
+    font-size: 1.4em;
+    color: gray;
+}
+
+.content .process-blocks .process .type-message {
+    padding: 5px 0;
+    text-align: left;
+    padding: 8px;
+    display: inline-block;
+    width: 100%;
+}
+
+.content .process-blocks .process .type-message > * {}
+
+.content .process-blocks .process .type-message .text {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.content .process-blocks .process .type-message button {
+    font-size: 1.2em;
+}
+
+.content .process-blocks .process .type-message button.accept {
+    float: left;
+}
+
+.content .process-blocks .process .type-message button.ignore {
+    float: right;
+}
+
+.content .process-blocks .process .type-message button i {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+
+/* End Content Block */
+
+
+/* Table Block */
+
+.content .table-block {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.content .table-block .table {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.content .table-block .table th,
+.content .table-block .table td {
+    min-width: 170px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    font-size: 1.3em;
+}
+
+.content .table-bottom-block {
+    display: block;
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.content .table-bottom-block p {
+    font-size: 1.3em;
+    float: right;
+}
+
+
+/* End Table Block */
+
+
+/* Info Block */
+
+.content .info-block {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.content .info-block .definition {
+    width: 35%;
+    float: left;
+    text-align: left;
+}
+
+.content .info-block .cell-state {
+    display: inline-block;
+    float: right;
+    width: 20%;
+}
+
+.content .info-block .definition p,
+.content .info-block .cell-state p {
+    font-size: 1.3em;
+}
+
+.content .info-block .definition span,
+.content .info-block .cell-state span {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.content .info-block .definition ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content .info-block .cell-state .square-area {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.content .info-block .cell-state .square-area .square {
+    width: 1.3em;
+    height: 1.3em;
+    display: inline-block;
+    border: 1px solid gray;
+    vertical-align: middle;
+}
+
+.content .info-block .cell-state .square-area .text {
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.3em;
+}
+
+
+/* End Info Block */
+
+.stages-chat-block {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.stages-chat-block > div {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+
+/* Add Process Blocks */
+
+.add-process-blocks {
+    padding: 5px;
+    padding-left: 0;
+    margin-right: 2%;
+}
+
+.stages-chat-block .control-block {
+    display: inline-block;
+    width: 47%;
+    margin-bottom: 10px;
+}
+
+.stages-chat-block h1 {
+    margin-bottom: 20px;
+}
+
+.stages-chat-block .width-full {
+    width: 100%;
+}
+
+.stages-chat-block .control-block:nth-child(2n + 1) {
+    float: right;
+}
+
+.content .add-info > .square-area {
+    margin-bottom: 10px;
+}
+
+.content .add-info > .square-area .square {
+    width: 1.3em;
+    height: 1.3em;
+    display: inline-block;
+    border: 1px solid gray;
+    vertical-align: middle;
+}
+
+.content .add-info > .square-area .text {
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.3em;
+}
+
+
+/* End Process Blocks */
+
+
+/* Chat Block */
+
+.stages-chat-block .chat {
+    margin-right: 2%;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    height: 80vh;
+}
+
+.stages-chat-block .chat .messages {
+    width: 100%;
+    display: inline-block;
+    height: 65%;
+    overflow-y: scroll;
+}
+
+.stages-chat-block .chat .messages > div {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.stages-chat-block .chat .messages > div > div,
+.stages-chat-block .chat .messages .attachment {
+    display: inline-block;
+    width: 100%;
+}
+
+.stages-chat-block .chat .messages > div > div {
+    width: auto;
+}
+
+.stages-chat-block .chat .messages .attachments {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.stages-chat-block .chat .messages .message-for {
+    float: right;
+    border-right: 0;
+}
+
+.stages-chat-block .chat .messages .message-from {
+    text-align: right;
+    background: #ffffd2;
+    border-left: 0;
+}
+
+.stages-chat-block .chat .messages .user {
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    width: 100%;
+    color: gray;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.stages-chat-block .chat .messages .user {
+    width: auto;
+}
+
+.stages-chat-block .chat .messages .text {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.stages-chat-block .chat .messages .attachment {
+    outline: none;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.stages-chat-block .chat .messages .attachment > div {
+    display: inline-block;
+}
+
+.stages-chat-block .chat .messages .attachment .icon > i {
+    color: #3399FF;
+    font-size: 1.5em;
+}
+
+.stages-chat-block .chat .messages .attachment .name,
+.stages-chat-block .chat .messages .time {
+    font-size: 1.2em;
+    color: gray;
+}
+
+.stages-chat-block .chat .messages .message-for .time,
+.stages-chat-block .chat .messages .message-for .text,
+.stages-chat-block .chat .messages .message-for .attachment {
+    text-align: right;
+}
+
+.stages-chat-block .chat .messages .message-from .time,
+.stages-chat-block .chat .messages .message-from .text,
+.stages-chat-block .chat .messages .message-from .attachment {
+    text-align: left;
+}
+
+.stages-chat-block .chat .textarea-message {
+    display: inline-block;
+    width: 100%;
+    height: 25%;
+    resize: none;
+    padding: 5px;
+    outline: none;
+    font-size: 1.3em;
+}
+
+.stages-chat-block .chat .controls {
+    display: inline-block;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+}
+
+.stages-chat-block .chat .controls .attachment {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    float: left;
+    border-radius: 0;
+}
+
+.stages-chat-block .chat .controls .attachment i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+.stages-chat-block .chat .controls button {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.stages-chat-block .chat .controls button span {
+    font-size: 1em;
+}
+
+
+/* End Chat Block */
+
+
+/* Stage Blocks */
+
+.stages-chat-block .stages-block {
+    float: right;
+}
+
+.stages-chat-block .stages-block .sel-process-blocks,
+.stages-chat-block .stages-block .sel-process {
+    display: inline-block;
+    width: 100%;
+}
+
+.stages-chat-block .stages-block .sel-process {
+    margin-bottom: 10px;
+}
+
+.stages-chat-block .stages-block .sel-process .info {
+    display: inline-block;
+    width: 80%;
+    float: left;
+    vertical-align: top;
+}
+
+.stage-main-block > .info * {
+    background: #fff;
+}
+
+.stages-chat-block .stages-block .sel-process button {
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    vertical-align: top;
+}
+
+.stages-chat-block .stages-block .sel-process .info .name {
+    font-size: 1.4em;
+    width: 100%;
+}
+
+.stages-chat-block .stages-block .sel-process .info .type,
+.stages-chat-block .stages-block .sel-process .info .desc {
+    display: inline-block;
+    font-size: 1.3em;
+    color: gray;
+}
+
+.stages-chat-block .stages-block {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.stages-chat-block .stages-block .sel-process .info .desc {
+    border-left: 1px solid gray;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.stage-main-blocks,
+.stage-main-block {
+    display: inline-block;
+    width: 100%;
+}
+
+.stage-main-blocks {
+    background: #f8f8f8;
+}
+
+.stage-main-block {
+    margin-bottom: 10px;
+}
+
+.stage-main-block > .number {
+    width: 10%;
+    height: 55px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    font-size: 3em;
+    color: #fff;
+    padding: 1px;
+}
+
+.stage-main-block > .info {
+    width: 90%;
+    display: inline-block;
+    text-align: right;
+}
+
+.stage-main-block > .info > * {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.stage-main-block > .info > * > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stage-main-block > .info > * .main-info {
+    width: 65%;
+    float: left;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.stage-main-block > .info > * .main-info > * {
+    width: 100%;
+    display: inline-block;
+}
+
+.stage-main-block > .info > * .main-info > .name {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.stage-main-block > .info > * .main-info > .desc {
+    font-weight: normal;
+    color: gray;
+    font-size: 1.3em;
+}
+
+.stage-main-block > .info > * .add-info {
+    width: 25%;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.stage-main-block > .info > * .add-info > div {
+    font-size: 1.3em;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: gray;
+}
+
+.stage-main-block > .info > * .controls {
+    width: 10%;
+    float: right;
+    height: 50px;
+}
+
+.stage-main-block > .info > * .controls > * {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+}
+
+.stage-main-block > .info > * .controls i {
+    font-size: 1.5em;
+}
+
+.stage-main-block > .info > * .controls .fa-pencil-alt {
+    color: #3399FF;
+}
+
+.stage-main-block > .info > * .controls .fa-times-circle {
+    color: red;
+}
+
+.stage-main-block > .info > .stage {
+    border-right: 0;
+    border-top: 0;
+}
+
+.stage-main-block > .info > .step {
+    border-right: 0;
+    border: 1px dashed gray;
+    border-right: 0;
+    border-color: inherit;
+}
+
+.stage-main-block > .info > .step .main-info {
+    width: 65%;
+}
+
+.stage-main-block > .info > .step .add-info {
+    width: 24.8%;
+}
+
+.stage-main-block > .info > .step .controls {
+    width: 10.2%;
+}
+
+
+/* Stage border and back colors */
+
+
+/* Gray */
+
+.stage-main-block.stage-gray .number {
+    background: gray;
+}
+
+.stage-main-block.stage-gray {
+    border: 1px solid gray;
+}
+
+
+/* Orange */
+
+.stage-main-block.stage-orange .number {
+    background: orange;
+}
+
+.stage-main-block.stage-orange {
+    border: 1px solid orange;
+}
+
+
+/* Green */
+
+.stage-main-block.stage-green .number {
+    background: green;
+}
+
+.stage-main-block.stage-green {
+    border: 1px solid green;
+}
+
+
+/* Red */
+
+.stage-main-block.stage-red .number {
+    background: red;
+}
+
+.stage-main-block.stage-red {
+    border: 1px solid red;
+}
+
+
+/* End Stage Blocks */
+
+.stage-main-block:last-child {
+    margin-bottom: 0;
+}
+
+.stage-main-block .stage {
+    border: 1px solid gray;
+    border-top: 0;
+    border-right: 0;
+}
+
+.stage-main-block .step {
+    border: 1px dashed gray;
+    border-right: 0;
+}
+
+.gray-color-border {
+    border-color: gray !important;
+}
+
+.orange-color-border {
+    border-color: orange !important;
+}
+
+.green-color-border {
+    border-color: green !important;
+}
+
+.red-color-border {
+    border-color: red !important;
+}
+
+.blue-color-border {
+    border-color: blue !important;
+}
+
+
+/* Service Block */
+
+.content .service-block {
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.content .service-block .big-service-blocks {
+    display: inline-block;
+    width: 19.5%;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+    margin-right: 0.5%;
+}
+
+.content .service-block .big-service-blocks:last-child {
+    margin-right: 0;
+}
+
+.content .service-block .big-service-blocks a {
+    display: block;
+    outline: none;
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
+    padding-bottom: 5px;
+}
+
+.content .service-block .big-service-blocks .name {
+    margin-top: 85px;
+    font-size: 1.65em;
+    font-weight: bold;
+}
+
+.content .service-block .big-service-blocks .desc {
+    margin-bottom: 85px;
+    font-size: 1.3em;
+    color: gray;
+}
+
+.content .service-block .big-service-blocks .type-message {
+    padding: 5px 0;
+    text-align: center;
+    padding: 8px;
+    display: inline-block;
+    width: 100%;
+    border: none;
+}
+
+.content .service-block .big-service-blocks button.type-message span {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+}
+
+.content .service-block .big-service-blocks:nth-child(5n) {
+    margin-right: 0;
+}
+
+
+/* End Service Block */
+
+
+/*Start Start Block*/
+
+.content .start-block {
+    display: inline-block;
+    width: 40%;
+}
+
+.content .start-block .inline-block {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content .start-block .inline-block > * {
+    display: inline-block;
+    width: 45%;
+}
+
+.content .start-block .inline-block .name-block {
+    margin-right: 2%;
+    width: 70%;
+}
+
+.content .start-block .inline-block:nth-child(2n) {
+    margin-right: 0;
+}
+
+.content .start-block .btn-start-block button.type-message span {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content .start-block .btn-start-block {
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+.content .start-block .btn-start-block,
+.content .start-block .name-block {
+    vertical-align: top;
+}
+
+.content .start-block .btn-start-block .type-message {
+    padding: 5px 0;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    border: none;
+}
+
+.content .start-block .inline-block .name-block .name {
+    font-size: 1.65em;
+    font-weight: bold;
+}
+
+.content .start-block .inline-block .name-block .desc {
+    font-size: 1.3em;
+    color: gray;
+}
+
+
+/* End Start Block */
+
+.content .table-block .table th {
+    color: #fff;
+}
+
+
+/* Media */
+
+@media only screen and (min-width: 1680px) {
+    * {
+        font-size: 10pt;
+    }
+}
+
+
+/* Tablet Version */
+
+@media only screen and (max-width: 1200px) {
+    * {
+        font-size: 8pt;
+    }
+    /* Menu Block */
+    noscript {
+        padding-left: 165px;
+    }
+    .menu-block {
+        width: 150px;
+    }
+    .menu-block .menu {
+        width: 100%;
+        font-size: 0;
+        text-align: center;
+    }
+    .menu-block .logo {
+        margin-bottom: 5px;
+    }
+    .menu-block .logo img {
+        height: 4.5em;
+        margin-top: 10px;
+    }
+    .menu-block .menu a {
+        display: inline-block;
+        width: 50%;
+    }
+    .menu-block .menu a i {
+        font-size: 4em;
+    }
+    .menu-block .menu a.log-out {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+    /* End Menu Block */
+    /* Top Block */
+    .top-block {
+        padding-left: 160px;
+    }
+    /* End Top Block */
+    /* Content Block */
+    .content {
+        padding-left: 165px;
+        padding-right: 1%;
+    }
+    .content .left-block {
+        float: left;
+        width: 20%;
+    }
+    .content .filter-block h1 {
+        font-size: 2em;
+    }
+    .content .right-block {
+        width: 80%;
+    }
+    .content .right-block .btn {
+        height: 35px;
+        padding: 5px 10px;
+    }
+    .content .right-block select {
+        height: 35px;
+        line-height: 35px;
+    }
+    /* End Content Block */
+    /* Footer Block */
+    .footer {
+        padding-left: 165px;
+    }
+    /* End Footer Block */
+    .content .pages-block form > .control-block {
+        width: 45%;
+        margin-right: 0;
+    }
+    .content .product-filter-block {
+        width: 100%;
+    }
+    .content .product-filter-block .control-block {
+        width: 49%;
+        float: left;
+        margin-right: 0;
+    }
+    .content .product-filter-block .control-block:nth-child(2n) {
+        margin-left: 2%;
+    }
+    .content .product-filter-block .control-block:nth-child(6n) {
+        float: right;
+        width: auto;
+    }
+    .add-users-block {
+        width: 80%;
+    }
+    .add-users-block .control-block:nth-child(2n) {
+        margin-left: 4%;
+    }
+    /* Content Block */
+    .content .process-blocks .process {
+        width: 24%;
+        margin-right: 1.3%;
+    }
+    .content .process-blocks .process:nth-child(5n) {
+        margin-right: 1.3%;
+    }
+    .content .process-blocks .process:nth-child(4n) {
+        margin-right: 0;
+    }
+    .content .process-blocks .process .type-process .text {
+        padding: 0 2em;
+    }
+    .content .process-blocks .process .type-message button i {
+        font-size: 2em;
+    }
+    .content .process-blocks .process .is-new-block {
+        width: 2em;
+        height: 2em;
+    }
+    /* End Content Block */
+    .stages-chat-block .control-block {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .stages-chat-block .control-block:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .stages-chat-block .chat .messages > div {
+        width: 95%;
+    }
+    .stages-chat-block .stages-block .sel-process .info {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .stages-chat-block .stages-block .sel-process .info > * {
+        width: 100%;
+    }
+    .stages-chat-block .stages-block .sel-process .info .desc {
+        border-left: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .stages-chat-block .stages-block .sel-process button {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .stage-main-block > .info > * {
+        width: 100%;
+        height: auto;
+    }
+    .stage-main-block > .info > * .main-info,
+    .stage-main-block > .info > * .main-info > *,
+    .stage-main-block > .info > * .add-info,
+    .stage-main-block > .info > * .add-info > div,
+    .stage-main-block > .info > * .controls,
+    .stage-main-block > .info > .step .add-info,
+    .stage-main-block > .info > .step .controls,
+    .stage-main-block > .info > .step .main-info {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .stage-main-block > .info > * {
+        padding: 10px;
+    }
+    .stage-main-block > .info > * .controls {
+        border: 0;
+    }
+    .stage-main-block > .info > * .controls > * {
+        height: auto;
+        width: 50%;
+        float: left;
+    }
+    .stage-main-block > .info > * .main-info,
+    .stage-main-block > .info > .step .main-info {
+        width: 70%;
+    }
+    .stage-main-block > .info > * .add-info,
+    .stage-main-block > .info > .step .add-info {
+        width: 30%;
+    }
+    .stage-main-block > .number {
+        height: 115px;
+        padding: 0;
+    }
+    .content .service-block .big-service-blocks {
+        width: 23.6%;
+    }
+    .content .service-block .big-service-blocks:nth-child(5n) {
+        margin-right: 0.5%;
+    }
+    .content .service-block .big-service-blocks:nth-child(4n) {
+        margin-right: 0;
+    }
+    .content .start-block {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 950px),
+only screen and (max-device-width: 950px) {
+    /* Content Block */
+    .content .left-block {
+        width: 15%;
+        vertical-align: middle;
+    }
+    .content .right-block {
+        width: 85%;
+    }
+    .content .right-block .btn {
+        width: 18%;
+    }
+    .content .right-block select {
+        width: 17%;
+    }
+    /* End Content Block */
+    /* Content Block */
+    .content .process-blocks .process {
+        width: 32.4%;
+        margin-right: 1.3%;
+    }
+    .content .process-blocks .process:nth-child(4n) {
+        margin-right: 1.3%;
+    }
+    .content .process-blocks .process:nth-child(3n) {
+        margin-right: 0;
+    }
+    /* End Content Block */
+}
+
+
+/* End Tablet Version */
+
+
+/* Mobile Version */
+
+@media only screen and (max-width: 850px),
+only screen and (max-device-width: 850px) {
+    * {
+        font-size: 25pt;
+    }
+    .control-block input,
+    .control-block select {
+        width: 100%;
+        height: 85px;
+        line-height: 85px;
+    }
+    .control-block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .visible-mob {
+        display: block;
+    }
+    .empty-block {
+        display: block;
+        width: 100%;
+        height: 135px;
+    }
+    noscript {
+        display: inline-block;
+        width: 100%;
+        padding: 20px;
+        color: #fff;
+    }
+    noscript h1 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    noscript .text {
+        width: 100%;
+        text-align: left;
+        font-size: 1.1em;
+    }
+    /* Menu Block */
+    .menu-block {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 140px;
+        z-index: 4;
+        background: #333;
+    }
+    .menu-block .logo {
+        width: 100%;
+        background: #333;
+        margin: 0;
+    }
+    .menu-block .logo img {
+        height: 2.5em;
+        margin-top: 30px;
+    }
+    .menu-block .open-menu {
+        position: fixed;
+        width: 135px;
+        height: 135px;
+        display: block;
+        padding: 10px;
+        background: none;
+        border: none;
+        z-index: 3;
+        outline: none;
+        padding-top: 35px;
+        background: #333;
+    }
+    .menu-block .open-menu > div {
+        width: 100%;
+        height: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background: #fff;
+    }
+    .menu-block .menu {
+        display: block;
+        width: 100%;
+        font-size: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .menu-block .menu a {
+        width: 33%;
+        margin-top: 1vh;
+        background: #333;
+    }
+    .menu-block .menu a i {
+        font-size: 2em;
+    }
+    .menu-block .menu a:last-child {
+        width: 100%;
+        position: relative;
+    }
+    .menu-block .menu {
+        display: none;
+    }
+    /* End Menu Block */
+    /* Top Block */
+    .top-block {
+        display: inline-block;
+        height: auto;
+        padding: 0 30px;
+        padding-top: 20px;
+    }
+    .top-block .types-message-block {
+        white-space: normal;
+        width: 100%;
+        display: inline-block;
+        height: auto;
+    }
+    .top-block .types-message-block .type-message {
+        font-size: 1.2em;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        white-space: normal;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /* End Top Block */
+    /* Content Block */
+    .content {
+        padding: 0 30px;
+    }
+    .content .filter-block {
+        display: inline-block;
+        width: 100%;
+    }
+    .content .left-block {
+        width: 100%;
+    }
+    .content .filter-block h1 {
+        margin-bottom: 20px;
+    }
+    .content .right-block {
+        width: 100%;
+    }
+    .content .right-block form {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .content .right-block .btn {
+        margin-top: 20px;
+        padding: 15px 5px;
+        height: 100px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .content .right-block select {
+        height: 100px;
+        line-height: 100px;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .content .right-block input {
+        margin-top: 0;
+    }
+    .content .right-block a {
+        padding: 20px;
+    }
+    /* End Content Block */
+    /* Footer Block */
+    .footer {
+        padding: 35px;
+        margin-top: 20px;
+    }
+    /* End Footer Block */
+    .content .pages-block form > .control-block {
+        width: 100%;
+    }
+    .content .product-filter-block .control-block {
+        width: 100%;
+        float: left;
+        margin-right: 0;
+    }
+    .content .product-filter-block .control-block:nth-child(2n) {
+        margin-left: 0;
+    }
+    .content .product-filter-block .control-block:nth-child(6n) {
+        float: none;
+        width: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .content .product-filter-block .control-block:nth-child(6n) i {
+        display: inline-block;
+    }
+    .content .product-filter-block .control-block:nth-child(5n) {
+        margin-right: 0;
+        width: 100%;
+    }
+    .content .date-block {
+        text-align: left;
+    }
+    .add-users-block,
+    .add-users-block form,
+    .add-users-block .control-block {
+        width: 100%;
+    }
+    .add-users-block .control-block:nth-child(2n) {
+        margin-left: 0;
+    }
+    /* Content Block */
+    .content .process-blocks .process {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-top: 20px !important;
+    }
+    .content .process-blocks .process .type-process .text {
+        padding: 0 2em;
+    }
+    .content .process-blocks .process .type-message button i {
+        font-size: 2em;
+    }
+    .content .process-blocks .process .is-new-block {
+        width: 2em;
+        height: 2em;
+    }
+    .content .process-blocks .process .name {
+        margin-top: 120px;
+    }
+    .content .process-blocks .process .stage {
+        margin-top: 120px;
+    }
+    .content .process-blocks .process .type-message {
+        text-align: center;
+    }
+    .content .process-blocks .process .type-message .text {
+        margin-top: 3px;
+    }
+    /* End Content Block */
+    .content .table-block {
+        margin-top: 20px;
+    }
+    .content .info-block .definition,
+    .content .info-block .cell-state {
+        width: 100%;
+        margin: 0;
+    }
+    .content .info-block .cell-state .square p {
+        margin-left: 40px;
+        margin-bottom: 15px;
+        vertical-align: top;
+        display: inline-block;
+    }
+    .content .table-block .table th,
+    .content .table-block .table td {
+        min-width: auto;
+        height: auto;
+    }
+    .stages-chat-block .chat {
+        float: none;
+        margin-top: 40px;
+        border-bottom: 1px solid gray;
+    }
+    .stages-chat-block > div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .stages-chat-block .stages-block,
+    .stages-chat-block .chat {
+        height: 90vh;
+    }
+    .stages-chat-block .chat .controls {
+        display: inline-block;
+        text-align: center;
+    }
+    .stages-chat-block .stages-block .sel-process .info {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .stages-chat-block .stages-block .sel-process .info > * {
+        width: 100%;
+    }
+    .stages-chat-block .stages-block .sel-process .info .desc {
+        border-left: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .stages-chat-block .stages-block .sel-process button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .stage-main-block > .info > * {
+        width: 100%;
+        height: auto;
+    }
+    .stage-main-block > .info > * .main-info,
+    .stage-main-block > .info > * .main-info > *,
+    .stage-main-block > .info > * .add-info,
+    .stage-main-block > .info > * .add-info > div,
+    .stage-main-block > .info > * .controls,
+    .stage-main-block > .info > .step .add-info,
+    .stage-main-block > .info > .step .controls,
+    .stage-main-block > .info > .step .main-info {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        border: 0;
+        margin-bottom: 10px;
+    }
+    .stage-main-block > .info > * {
+        padding: 10px;
+    }
+    .stage-main-block > .info > * .controls > * {
+        height: auto;
+        width: 50%;
+        float: left;
+    }
+    .stage-main-block > .number {
+        height: 315px;
+        padding: 0;
+    }
+    .stages-chat-block .control-block {
+        margin-bottom: 20px;
+    }
+    .stages-chat-block .control-block .text {
+        margin-bottom: 10px;
+    }
+    .content .service-block .big-service-blocks,
+    .content .start-block,
+    .content .start-block .inline-block > * {
+        width: 100%
+    }
+}
+
+@media screen and (max-height: 600px) and (max-width: 850px),
+screen and (max-device-height: 600px) and (max-device-width: 850px) {
+    .menu-block .menu a {
+        width: 25%;
+        margin-top: 1vh;
+    }
+    .menu-block .menu a i {
+        font-size: 2em;
+    }
+}
+
+
+/* End Mobile Version /*
+/* End Media */
